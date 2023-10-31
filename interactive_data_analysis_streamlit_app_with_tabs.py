@@ -5,6 +5,11 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import re
+# from dotenv import dotenv_values
+# config = dotenv_values(".env")
+# PASSWORD = config['PASSWORD']
+import os
+PASSWORD = os.environ.get('PASSWORD')
 
 # Function to clean column data
 def clean_column_data(df, column, groupby):
