@@ -1,6 +1,6 @@
 
 import streamlit as st
-pip install streamlit_ace
+from streamlit_ace import st_ace
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
